@@ -1,0 +1,7 @@
+image: gitpod/workspace-java-17
+
+tasks:
+  - init: |
+      sudo apt update
+      sudo apt install -y tomcat9
+      sudo service tomcat9 start
